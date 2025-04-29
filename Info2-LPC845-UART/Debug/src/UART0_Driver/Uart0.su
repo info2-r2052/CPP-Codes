@@ -1,0 +1,8 @@
+../src/UART0_Driver/Uart0.cpp:12:6:void UART0_Init(uint32_t)	24	static
+../src/UART0_Driver/Uart0.cpp:45:6:void UART0_IRQHandler()	16	static
+../src/UART0_Driver/Uart0.cpp:73:6:void UART0_Send(uint8_t*, uint32_t)	24	static
+../src/UART0_Driver/Uart0.cpp:86:10:uint32_t strlen(uint8_t*)	24	static
+../src/UART0_Driver/Uart0.cpp:96:6:void UART0_PushTx(uint8_t)	16	static
+../src/UART0_Driver/Uart0.cpp:113:9:int32_t UART0_PopTx()	16	static
+../src/UART0_Driver/Uart0.cpp:128:6:void UART0_PushRx(uint8_t)	16	static
+../src/UART0_Driver/Uart0.cpp:136:9:int32_t UART0_PopRx()	16	static
