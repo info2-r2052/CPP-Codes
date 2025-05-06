@@ -1,7 +1,7 @@
 <h1 align="center">Códigos CPP 2025</h1>
 
 <p align="center">
-  <img src="./images/Logo.png" alt="Logo del proyecto" width="200">
+  <img src="images/Logo.png" alt="Logo del proyecto" width="200">
 </p>
 
 <p align="center">
