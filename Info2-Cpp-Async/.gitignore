@@ -1,0 +1,9 @@
+*.o
+*.exe
+ej01_async_future
+ej02_promise_future
+ej03_packaged_task
+ej04_thread_pool
+ej05_coroutines_cpp20
+ej05_coroutines_cpp20.exe
+_tmp/

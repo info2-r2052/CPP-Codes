@@ -10,6 +10,16 @@ El archivo `thead_basico.cpp` contiene un programa que demuestra el uso de threa
 - En la función `main`, se crea un vector de hilos `Hilo` y se ejecuta un bucle para crear 10 hilos, cada uno ejecutando la función `funcion_hilo` con un argumento diferente.
 - Finalmente, se espera a que todos los hilos terminen su ejecución utilizando la función `join`.
 
+## Compilación local (g++)
+
+Desde la carpeta del repo, reemplazá `ejemplo.cpp` por tu archivo fuente y `ejecutable` por el nombre del binario que quieras generar:
+
+```bash
+g++ -std=c++20 -O2 -pthread -o ejecutable ejemplo.cpp -static-libgcc -static-libstdc++
+```
+
+`-pthread` enlaza el soporte de hilos; `-static-libgcc` y `-static-libstdc++` enlazan de forma estática las librerías de runtime de GCC/libstdc++ (útil para copiar el `.exe` a otra máquina Windows sin depender de DLLs del MinGW en el PATH).
+
 ## Explicación del Dockerfile
 
 El Dockerfile proporcionado se encarga de construir un contenedor Docker que ejecuta el código C++ dentro de un entorno controlado. Aquí hay una explicación de cada instrucción:
